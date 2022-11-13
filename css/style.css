@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Source Serif Pro', serif; */
+    font-family: 'Kanit', sans-serif;
+    color: #182230;
+    font-weight: 1000;
+}
+
+
+/*Code to change color of active link*/
+.nav1 .navbar-nav > .active > a {
+    color: #146fe7;
+}
+
+.nav1 nav {
+    background-color: white;
+}
+
+.nav1 .navbar-nav a {
+    transition: 0.3s;
+    padding-right: 2%;
+}
+
+.nav1 .navbar-nav a .this {
+    color: #183f72;
+    font-weight: 1000;
+    margin-left: auto;
+}
+
+.nav1 .navbar-nav a:hover{
+    /* border-bottom: 1px solid #183f72;
+    border-width: thick;
+    padding: 10px; */
+   /* font-size: 20px;  */
+}
+
+.nav1 a.active{
+    border-bottom: 1px solid #183f72;
+    border-width: thick;
+    border-bottom-width: 20;
+}
+
+.nav1 .navbar-nav {
+margin-left: auto;
+}
+
+.nav2 nav {
+    margin-left: 45%;
+}
+
+.nav2 {
+    margin-top: 4%;
+    background-color: #EEF0F4;
+    padding: 60px;
+    text-align: center;
+}
+
+.nav2 h2{
+    font-weight: 1000;
+    color: #183f72;
+    font-style: bold;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: #de2525;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.details .fa {
+    border-radius: 50%;
+    font-size: 33px;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 20px;
+  }
+  
+  .details .fa-facebook {
+    color: #b63e50;
+    background-color: #fcfcfc;
+  }
+
+  .details .fa-facebook:hover {
+    background-color: #fcfcfc;
+    color:rgb(0, 56, 135);
+  }
+  
+  .details .fa-twitter {
+    background-color: #fcfcfc;
+    color: #b63e50;
+  }
+  .details .fa-twitter:hover {
+    color: #069bff;;
+  }
+
+  .details .fa-instagram {
+    background-color: #fcfcfc;
+    color: #b63e50;
+  }
+  .details .fa-instagram:hover {
+     color:rgba(151, 27, 209, 0.67);
+  }
+
+.heading {
+    padding: 60px;
+    background-color: #fafafc;
+}
+
+.heading .details .head1{
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 24px;
+    color: #183f72;
+    font-weight: 1000;
+}
+.heading .details .head2{
+    color: #929497;
+    font-size: 18px;
+}
+.heading .details li {
+    list-style: none;
+}
+
+.heading .details p {
+    font-style: bold;
+    font-size: 30px;
+    color: #e8465f;
+    font-weight: 700;
+}
+
+.details{
+    border: 0.1px solid rgb(125, 121, 121);
+    padding: 20px;
+}
+
+.footer {
+    padding: 50px;
+}
+
+.footer h1{
+    color: #e8465f;
+    font-weight: 1000;
+}
+
+.footer p{
+    color: #183f72;
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.footer button{
+    padding: 20px;
+    margin-top: 2%;
+    background-color: #e8465f;
+    color: white;
+    border-radius: 0.2cm;
+    border: 0px solid black;
+
+}
+
+.footer button:hover{
+    background-color: #183f72;
+    color: white;
+}
+
+/* .footer textarea{
+    border-style: none;
+} */
+
+::placeholder {
+    color: black;
+    font-size: 20px;
+
+  }
