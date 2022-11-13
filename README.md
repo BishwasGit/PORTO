@@ -1,1 +1,1 @@
-<img src="porto.jpg">
+<img src="porto.png">
